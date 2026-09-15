@@ -61,9 +61,9 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "Cum te cheama?", required: true },
+      { question: "Cati ani ai?", required: true },
+      { question: "De ce vrei sa intri?", required: true },
     ],
 
     // Embed colors by application status.
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "420 Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -161,9 +161,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "lei",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "lei",
       // Currency symbol shown in balances.
       symbol: "$",
     },
